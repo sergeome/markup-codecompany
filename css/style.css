@@ -68,6 +68,8 @@ header {
     float: right;
     margin: 8px 0 0 0;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
 }
 
 ul li {
@@ -86,15 +88,11 @@ ul li {
 
 .top-menu li a {
     display: block;
-    font-family: "Roboto", sans-serif;
-    font-size: 17px;
     padding: 8px 30px;
 }
 
 .top-menu li.active {
     float: left;
-    font-family: "Roboto", sans-serif;
-    font-size: 17px;
     background: #004359;
     border-radius: 5px;
 }
