@@ -42,15 +42,15 @@ h2 {
 }
 
 .wrapper{
-    width: 1920px;
     margin: 0 auto;
+    padding: 0 5px 0 5px;
 }
 header {
     display: block;
     float: left;
     width: 100%;
     background: #002f47;
-    padding: 22px 368px 24px 391px;
+    padding: 22px 0 24px 0;
     margin: 0;
 }
 
