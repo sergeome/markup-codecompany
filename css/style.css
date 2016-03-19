@@ -65,7 +65,26 @@ header {
     margin: 5px 0 0 5px;
 }
 
-.menu {
+.top-menu {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+}
+
+.top-menu li{
+    float: left;
+}
+
+.top-menu li a{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.top-menu li.active{
+    float: left;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
 }
 
