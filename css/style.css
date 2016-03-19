@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic);
 
-* {
+*
+{
     margin: 0;
     padding: 0;
 }
@@ -21,6 +22,12 @@ img {
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 h1 {
@@ -31,6 +38,32 @@ h1 {
 h2 {
     font-family: "Gotham Thin", sans-serif;
     font-size: 13px;
+    color: #85a7b9;
+}
+
+.wrapper{
+    width: 1920px;
+    margin: 0 auto;
+}
+header {
+    display: block;
+    float: left;
+    width: 100%;
+    background: #002f47;
+    height: 100px;
+    padding: 22px 368px 24px 391px;
+    margin: 0;
+}
+
+.logo{
+    display: block;
+    float: left;
+}
+
+.title{
+    display: block;
+    float: left;
+    margin: 5px 0 0 5px;
 }
 
 .menu {
@@ -42,7 +75,7 @@ h2 {
     font-size: 36px;
 }
 
-.button-and-placeholder{
+.button-and-placeholder {
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
 }
