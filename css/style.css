@@ -1,9 +1,141 @@
-*
-{
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic);
+
+* {
     margin: 0;
     padding: 0;
 }
 
 img {
     border: 0;
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../fonts/GOTHAM-BOLD.TTF");
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("../fonts/GOTHAM-THIN.TTF");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Gotham Bold", sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 13px;
+}
+
+.menu {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.slider-title {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 60px;
+}
+
+.slider-description {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 24px;
+}
+
+.slider-content{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 15px;
+    color: #b4d1e1;
+}
+
+.slider-button{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+}
+
+.team-title{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 36px;
+    color: #0d415c;
+}
+
+.employee-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #0d415c;
+}
+
+.employee-position{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #618598;
+}
+
+.team-content{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #0d415c;
+}
+
+.portfolio-title{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 36px;
+}
+
+.portfolio-description{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+}
+
+.portfolio-button{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+}
+
+.testimonials-title{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 36px;
+}
+
+.testimonials-content{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.contact-form-title{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 36px;
+}
+
+.contact-form-description{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 18px;
+}
+
+.contact-form-placeholder{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+    color: #8ea6b3;
+}
+
+.contact-form-button{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+}
+
+.footer-social{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 16px;
+}
+
+.footer-copyright{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
 }
