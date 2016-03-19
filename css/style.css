@@ -34,13 +34,17 @@ h2 {
 }
 
 .menu {
-    font-family: "Roboto", sans-serif;
     font-size: 17px;
 }
 
 .section-title {
     font-family: "Roboto Medium", sans-serif;
     font-size: 36px;
+}
+
+.button-and-placeholder{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
 }
 
 .slider-title {
@@ -60,8 +64,7 @@ h2 {
 }
 
 .slider-button {
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 15px;
+
 }
 
 .team-title-color {
@@ -69,19 +72,16 @@ h2 {
 }
 
 .employee-name {
-    font-family: "Roboto", sans-serif;
     font-size: 24px;
     color: #0d415c;
 }
 
 .employee-position {
-    font-family: "Roboto", sans-serif;
     font-size: 13px;
     color: #618598;
 }
 
 .team-content {
-    font-family: "Roboto", sans-serif;
     font-size: 15px;
     color: #0d415c;
 }
@@ -92,30 +92,24 @@ h2 {
 }
 
 .portfolio-button {
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 15px;
+
 }
 
 .testimonials-content {
-    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-style: italic;
 }
 
 .contact-form-description {
-    font-family: "Roboto Light", sans-serif;
     font-size: 18px;
 }
 
 .contact-form-placeholder {
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 15px;
     color: #8ea6b3;
 }
 
 .contact-form-button {
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 15px;
+
 }
 
 .footer-social {
@@ -124,6 +118,5 @@ h2 {
 }
 
 .footer-copyright {
-    font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
