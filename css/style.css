@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,400italic);
 
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
@@ -25,7 +24,7 @@ body {
     color: #ffffff;
 }
 
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
@@ -41,25 +40,25 @@ h2 {
     color: #85a7b9;
 }
 
-.wrapper{
+.wrapper {
     margin: 0 auto;
-    padding: 0 5px 0 5px;
 }
+
 header {
     display: block;
     float: left;
     width: 100%;
     background: #002f47;
-    padding: 22px 0 24px 0;
-    margin: 0;
+    padding: 22px 5px 24px 5px;
+    box-sizing: border-box;
 }
 
-.logo{
+.logo {
     display: block;
     float: left;
 }
 
-.title{
+.title {
     display: block;
     float: left;
     margin: 5px 0 0 5px;
@@ -67,25 +66,50 @@ header {
 
 .top-menu {
     float: right;
+    margin: 8px 0 0 0;
+    text-transform: uppercase;
 }
 
 ul li {
     list-style: none;
 }
 
-.top-menu li{
+.top-menu li {
+    display: inline-block;
     float: left;
+    position: relative;
 }
 
-.top-menu li a{
-    font-family: "Roboto", sans-serif;
-    font-size: 17px;
+.top-menu li:first-child {
+    background: url("../images/border.png") no-repeat 149px 5px;
 }
 
-.top-menu li.active{
+.top-menu li a {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    padding: 8px 30px;
+}
+
+.top-menu li.active {
     float: left;
     font-family: "Roboto", sans-serif;
     font-size: 17px;
+    background: #004359;
+    border-radius: 5px;
+}
+
+.top-menu li.active a {
+    color: #76a1b8;
+}
+
+.top-menu li:hover {
+    background: #004359;
+    border-radius: 5px;
+}
+
+.top-menu li a:hover {
+    color: #76a1b8;
 }
 
 .section-title {
