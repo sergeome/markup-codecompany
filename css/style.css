@@ -111,11 +111,11 @@ ul li {
     color: #76a1b8;
 }
 
-.slider{
+.slider {
     clear: both;
     display: block;
     margin: 0 auto;
-    padding: 108px 0 110px 0;
+    padding: 108px 0 77px 0;
     text-align: center;
     background: url("../images/slider.png") no-repeat;
 }
@@ -142,7 +142,7 @@ ul li {
     margin: 0 0 6px 0;
 }
 
-.slider-content-wrapper{
+.slider-content-wrapper {
     display: block;
     width: 530px;
     margin: 25px auto 43px;
@@ -165,8 +165,31 @@ ul li {
     background: url("../images/button-shape.png") no-repeat 230px 20px;
 }
 
-.team-title-color {
+.team {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 73px 113px 77px 111px;
     color: #0d415c;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.employees{
+    display: block;
+    float: left;
+    width: 894px;
+    margin: 55px 0 42px 132px;
+}
+
+.employee{
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 161px;
+}
+
+.employee:first-child{
+    margin-left: 0;
 }
 
 .employee-name {
