@@ -40,20 +40,17 @@ h2 {
     color: #85a7b9;
 }
 
-.wrapper {
-    float: left;
+header {
     width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
+    padding: 22px 0;
+    overflow: hidden;
+    background: #002f47;
 }
 
-header {
-    display: block;
-    float: left;
-    width: 100%;
-    background: #002f47;
-    padding: 22px 5px 24px 5px;
-    box-sizing: border-box;
+.header-wrapper {
+    overflow: hidden;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -82,7 +79,6 @@ ul li {
 .top-menu li {
     display: inline-block;
     float: left;
-    position: relative;
 }
 
 .top-menu li:first-child {
@@ -113,13 +109,13 @@ ul li {
     color: #76a1b8;
 }
 
-.slider {
-    clear: both;
-    display: block;
+.slider{
+    background: url("../images/slider.png") no-repeat top center;
+}
+.slider-wrapper {
     margin: 0 auto;
     padding: 108px 0 77px 0;
     text-align: center;
-    background: url("../images/slider.png") no-repeat;
 }
 
 .section-title {
@@ -222,6 +218,7 @@ ul li {
     width: 100%;
     background: #00AE86;
     text-align: center;
+    padding: 60px 0;
 }
 
 .portfolio-description {
