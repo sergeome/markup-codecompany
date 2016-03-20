@@ -41,7 +41,7 @@ h2 {
 }
 
 .wrapper {
-    width: 1366px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ ul li {
     clear: both;
     display: block;
     margin: 0 auto;
-    padding: 108px 0 0 0;
+    padding: 108px 0 110px 0;
     text-align: center;
     background: url("../images/slider.png") no-repeat;
 }
@@ -125,7 +125,7 @@ ul li {
     font-size: 36px;
 }
 
-.button-and-placeholder {
+.button-and-placeholder-font {
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
 }
@@ -142,15 +142,27 @@ ul li {
     margin: 0 0 6px 0;
 }
 
+.slider-content-wrapper{
+    display: block;
+    width: 530px;
+    margin: 25px auto 43px;
+}
+
 .slider-content {
     font-family: "Roboto Light", sans-serif;
     font-size: 15px;
     color: #b4d1e1;
-    padding: 25px 400px 43px;
 }
 
 .slider-button {
-
+    display: block;
+    width: 300px;
+    border: 2px solid #ffffff;
+    padding: 16px 69px 16px 47px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background: url("../images/button-shape.png") no-repeat 230px 20px;
 }
 
 .team-title-color {
