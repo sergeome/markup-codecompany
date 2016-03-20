@@ -177,18 +177,22 @@ ul li {
     box-sizing: border-box;
 }
 
-.employees{
+.employees {
     display: block;
     margin: 55px auto 23px;
 }
 
-.employee{
+.employee {
     display: inline-block;
-    margin: 0 0 0 10%;
+    margin: 0 13% 0 14%;
 }
 
-.employee:first-child{
-    margin-left: 0;
+.employee:first-child {
+    margin: 0;
+}
+
+.employee:last-child {
+    margin: 0;
 }
 
 .employee-name {
@@ -206,11 +210,17 @@ ul li {
     color: #0d415c;
 }
 
-.team-content-wrapper{
+.team-content-wrapper {
     display: block;
     width: 497px;
     margin: 35px auto 0;
     clear: both;
+}
+
+.team-image-line {
+    clear: both;
+    display: block;
+    margin: 0 auto;
 }
 
 .portfolio-description {
