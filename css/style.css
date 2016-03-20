@@ -169,7 +169,6 @@ ul li {
 .team {
     clear: both;
     display: block;
-    float: left;
     width: 100%;
     padding: 73px 113px 77px 111px;
     color: #0d415c;
@@ -223,9 +222,17 @@ ul li {
     margin: 0 auto;
 }
 
+.portfolio{
+    display: block;
+    width: 100%;
+    background: #00AE86;
+    text-align: center;
+}
+
 .portfolio-description {
     font-family: "Roboto Light", sans-serif;
     font-size: 18px;
+    text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
 }
 
 .portfolio-button {
