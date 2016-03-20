@@ -210,7 +210,7 @@ ul li {
 .team-content-wrapper{
     display: block;
     width: 497px;
-    margin: 35px 321px 0;
+    margin: 35px auto 0;
 }
 
 .portfolio-description {
