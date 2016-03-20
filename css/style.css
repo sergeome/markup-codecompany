@@ -166,6 +166,7 @@ ul li {
 }
 
 .team {
+    clear: both;
     display: block;
     float: left;
     width: 100%;
@@ -179,7 +180,7 @@ ul li {
     display: block;
     float: left;
     width: 894px;
-    margin: 55px 0 42px 132px;
+    margin: 55px 0 23px 132px;
 }
 
 .employee{
@@ -205,6 +206,12 @@ ul li {
 .team-content {
     font-size: 15px;
     color: #0d415c;
+}
+
+.team-content-wrapper{
+    display: block;
+    width: 497px;
+    margin: 35px 321px 0;
 }
 
 .portfolio-description {
