@@ -168,7 +168,6 @@ ul li {
 }
 
 .team {
-    clear: both;
     display: block;
     width: 100%;
     padding: 73px 113px 77px 111px;
@@ -206,19 +205,14 @@ ul li {
 }
 
 .team-content {
+    display: block;
+    width: 497px;
+    margin: 35px auto 0;
     font-size: 15px;
     color: #0d415c;
 }
 
-.team-content-wrapper {
-    display: block;
-    width: 497px;
-    margin: 35px auto 0;
-    clear: both;
-}
-
 .team-image-line {
-    clear: both;
     display: block;
     margin: 0 auto;
 }
