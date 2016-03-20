@@ -41,6 +41,7 @@ h2 {
 }
 
 .wrapper {
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -110,6 +111,15 @@ ul li {
     color: #76a1b8;
 }
 
+.slider{
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    padding: 108px 0 0 0;
+    text-align: center;
+    background: url("../images/slider.png") no-repeat;
+}
+
 .section-title {
     font-family: "Roboto Medium", sans-serif;
     font-size: 36px;
@@ -123,17 +133,20 @@ ul li {
 .slider-title {
     font-family: "Roboto Bold", sans-serif;
     font-size: 60px;
+    margin: 0 0 13px 0;
 }
 
 .slider-description {
     font-family: "Roboto Light", sans-serif;
     font-size: 24px;
+    margin: 0 0 6px 0;
 }
 
 .slider-content {
     font-family: "Roboto Light", sans-serif;
     font-size: 15px;
     color: #b4d1e1;
+    padding: 25px 400px 43px;
 }
 
 .slider-button {
@@ -179,10 +192,6 @@ ul li {
 
 .contact-form-placeholder {
     color: #8ea6b3;
-}
-
-.contact-form-button {
-
 }
 
 .footer-social {
