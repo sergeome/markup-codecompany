@@ -260,9 +260,54 @@ ul li {
     transform: scale(1.1);
 }
 
+.testimonials{
+    width: 100%;
+    text-align: center;
+}
+
+.testimonials-wrapper{
+    color: #0d415c;
+    max-width: 1140px;
+    margin: 67px auto 76px;
+    overflow: hidden;
+}
+
+.narrow-left{
+    display: block;
+    position: relative;
+    float: left;
+    top: -71px;
+}
+.narrow-right{
+    display: block;
+    position: relative;
+    float: right;
+    top: -71px;
+}
+
 .testimonials-content {
     font-size: 15px;
     font-style: italic;
+    width: 693px;
+    margin: 37px auto 20px;
+}
+
+.testimonials-line{
+    display: block;
+    margin: 33px auto 34px;
+}
+
+.author-name{
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d4a59;
+}
+
+.author-info{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #708b99;
 }
 
 .contact-form-description {
