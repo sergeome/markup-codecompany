@@ -164,22 +164,24 @@ ul li {
 }
 
 .team {
-    display: block;
     width: 100%;
-    padding: 73px 113px 77px 111px;
+    padding: 73px 0 77px 0;
+}
+
+.team-wrapper{
+    margin: 0 auto;
+    max-width: 1140px;
     color: #0d415c;
     text-align: center;
-    box-sizing: border-box;
 }
 
 .employees {
-    display: block;
-    margin: 55px auto 23px;
+    margin: 55px 0 23px;
 }
 
 .employee {
     display: inline-block;
-    margin: 0 13% 0 14%;
+    margin: 0 158px;
 }
 
 .employee:first-child {
