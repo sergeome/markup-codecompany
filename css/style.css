@@ -152,7 +152,7 @@ ul li {
     color: #b4d1e1;
 }
 
-.slider-button {
+.ctabutton {
     display: block;
     width: 300px;
     border: 2px solid #ffffff;
@@ -160,7 +160,7 @@ ul li {
     margin: 0 auto;
     border-radius: 25px;
     box-sizing: border-box;
-    background: url("../images/button-shape.png") no-repeat 230px 20px;
+    background: url("../images/button-shape.png") no-repeat 230px 19px;
 }
 
 .team {
@@ -258,10 +258,6 @@ ul li {
 
 .img-circle:hover{
     transform: scale(1.1);
-}
-
-.portfolio-button {
-
 }
 
 .testimonials-content {
