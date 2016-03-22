@@ -203,7 +203,6 @@ ul li {
 }
 
 .team-content {
-    display: block;
     width: 497px;
     margin: 35px auto 0;
     font-size: 15px;
@@ -211,12 +210,10 @@ ul li {
 }
 
 .team-image-line {
-    display: block;
     margin: 0 auto;
 }
 
 .portfolio{
-    display: block;
     width: 100%;
     background: #00AE86;
     text-align: center;
@@ -227,6 +224,14 @@ ul li {
     font-family: "Roboto Light", sans-serif;
     font-size: 18px;
     text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
+}
+
+.portfolio-images{
+    margin: 82px auto 65px;
+}
+
+.portfolio-images li{
+    display: inline-block;
 }
 
 .portfolio-button {
