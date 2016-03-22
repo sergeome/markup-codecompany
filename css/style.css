@@ -276,25 +276,25 @@ ul li {
     display: block;
     position: relative;
     float: left;
-    top: -71px;
+    top: -68px;
 }
 .narrow-right{
     display: block;
     position: relative;
     float: right;
-    top: -71px;
+    top: -68px;
 }
 
 .testimonials-content {
     font-size: 15px;
     font-style: italic;
     width: 693px;
-    margin: 37px auto 20px;
+    margin: 37px auto 16px;
 }
 
 .testimonials-line{
     display: block;
-    margin: 33px auto 34px;
+    margin: 0 auto 27px;
 }
 
 .author-name{
@@ -310,12 +310,27 @@ ul li {
     color: #708b99;
 }
 
+.contact-form{
+    padding: 60px 0 87px;
+    background: #223139;
+    text-align: center;
+}
 .contact-form-description {
     font-size: 18px;
 }
 
-.contact-form-placeholder {
+.low-input{
+    width: 502px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
     color: #8ea6b3;
+    text-align: center;
+}
+
+.low-input::-webkit-input-placeholder, .low-input::-moz-placeholder, .low-input:-ms-input-placeholder{
+    color: #8ea6b3;
+    text-align: center;
 }
 
 .footer-social {
