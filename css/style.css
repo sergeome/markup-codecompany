@@ -360,10 +360,80 @@ ul li {
     margin: 33px 0 0 0;
 }
 
-.footer-social {
+footer{
+    width: 100%;
+    background: #223139;;
+}
+
+.footer-wrapper{
+    width: 1140px;
+    overflow: hidden;
+    border-top: 1px solid #747d82;
+    padding: 54px 0 57px 0;
+    margin: 0 auto;
+}
+
+.follow-us{
+    float: left;
+}
+
+.follow-us {
     font-family: "Roboto Light", sans-serif;
     font-size: 16px;
+    margin: 7px 0 0 0;
 }
+
+.social{
+    display: block;
+    margin: 0 0 0 129px;
+}
+
+.social-icon {
+    display: inline-block;
+    background: url(../images/social/social-sprite.png) no-repeat;
+    margin-right: 14px;
+}
+
+.social-icon:hover{
+    display: inline-block;
+    background: url(../images/social/hover/social-sprite-hover.png) no-repeat;
+    margin-right: 14px;
+}
+
+.social-facebook, .social-facebook:hover {
+    width: 36px;
+    height: 36px;
+    background-position: -5px -5px;
+}
+
+.social-active {
+    background: url(../images/social/hover/social-sprite-hover.png) no-repeat -5px -5px;
+}
+
+.social-linkedin, .social-linkedin:hover {
+    width: 36px;
+    height: 36px;
+    background-position: -51px -5px;
+}
+
+.social-pinterest, .social-pinterest:hover{
+     width: 36px;
+     height: 36px;
+     background-position: -97px -5px;
+}
+
+.social-twitter, .social-twitter:hover {
+    width: 36px;
+    height: 36px;
+    background-position: -143px -5px;
+}
+
+.social-youtube, .social-youtube:hover {
+    width: 36px;
+    height: 36px;
+    background-position: -189px -5px;
+}
+
 
 .footer-copyright {
     font-size: 12px;
