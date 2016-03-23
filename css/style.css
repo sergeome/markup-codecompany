@@ -320,17 +320,44 @@ ul li {
 }
 
 .low-input{
+    display: block;
     width: 502px;
     height: 50px;
+    border: 1px solid #ffffff;
     border-radius: 50px;
-    margin: 0 auto;
-    color: #8ea6b3;
+    margin: 10px auto 0;
     text-align: center;
 }
 
-.low-input::-webkit-input-placeholder, .low-input::-moz-placeholder, .low-input:-ms-input-placeholder{
+.message-input{
+    display: block;
+    width: 502px;
+    height: 140px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.send-button {
+    display: block;
+    width: 300px;
+    border: 2px solid #ffffff;
+    padding: 16px 0 16px;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.low-input::-webkit-input-placeholder, .low-input::-moz-placeholder, .low-input:-ms-input-placeholder, .message-input::-webkit-input-placeholder, .message-input::-moz-placeholder, .message-input:-ms-input-placeholder{
     color: #8ea6b3;
     text-align: center;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 15px;
+}
+
+.feedback-form{
+    margin: 33px 0 0 0;
 }
 
 .footer-social {
