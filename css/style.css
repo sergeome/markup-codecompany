@@ -42,8 +42,8 @@ h2 {
 
 header {
     width: 100%;
-    padding: 22px 0;
     overflow: hidden;
+    padding: 22px 0;
     background: #002f47;
 }
 
@@ -114,7 +114,7 @@ ul li {
 }
 .slider-wrapper {
     margin: 0 auto;
-    padding: 108px 0 77px 0;
+    padding: 98px 0 77px 0;
     text-align: center;
 }
 
@@ -131,7 +131,6 @@ ul li {
 .slider-title {
     font-family: "Roboto Bold", sans-serif;
     font-size: 60px;
-    margin: 0 0 13px 0;
 }
 
 .slider-description {
@@ -165,7 +164,7 @@ ul li {
 
 .team {
     width: 100%;
-    padding: 73px 0 77px 0;
+    padding: 63px 0 72px 0;
 }
 
 .team-wrapper{
@@ -217,17 +216,18 @@ ul li {
     width: 100%;
     background: #00AE86;
     text-align: center;
-    padding: 60px 0;
+    padding: 44px 0;
 }
 
 .portfolio-description {
     font-family: "Roboto Light", sans-serif;
     font-size: 18px;
     text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
+    margin-top: 6px;
 }
 
 .portfolio-images{
-    margin: 82px auto 65px;
+    margin: 81px auto 57px;
 }
 
 .portfolio-images li{
@@ -268,7 +268,7 @@ ul li {
 .testimonials-wrapper{
     color: #0d415c;
     max-width: 1140px;
-    margin: 67px auto 76px;
+    margin: 55px auto 70px;
     overflow: hidden;
 }
 
@@ -276,20 +276,20 @@ ul li {
     display: block;
     position: relative;
     float: left;
-    top: -68px;
+    top: -70px;
 }
 .narrow-right{
     display: block;
     position: relative;
     float: right;
-    top: -68px;
+    top: -70px;
 }
 
 .testimonials-content {
     font-size: 15px;
     font-style: italic;
     width: 693px;
-    margin: 37px auto 16px;
+    margin: 25px auto 16px;
 }
 
 .testimonials-line{
@@ -311,11 +311,13 @@ ul li {
 }
 
 .contact-form{
-    padding: 60px 0 87px;
+    padding: 46px 0 87px;
     background: #223139;
     text-align: center;
 }
 .contact-form-description {
+    margin: 2px 0 0 0;
+    font-family: "Roboto Light", sans-serif;
     font-size: 18px;
 }
 
@@ -357,7 +359,7 @@ ul li {
 }
 
 .feedback-form{
-    margin: 33px 0 0 0;
+    margin: 38px 0 0 0;
 }
 
 footer{
@@ -437,5 +439,5 @@ footer{
 .copyright {
     float: right;
     font-size: 12px;
-    margin: 9px 0 0;
+    margin: 8px 0 0;
 }
