@@ -230,19 +230,23 @@ ul li {
 
 .portfolio-images li{
     display: inline-block;
+    position: relative;
     margin: 0 70px 0 0;
     width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
 .portfolio-images li a{
     display: block;
+    position: absolute;
     width: 180px;
+    height: 180px;
     border-radius: 50%;
-    overflow: hidden;
+    z-index: 10;
 }
 
-.portfolio-images li a:hover{
+.portfolio-images li a:hover {
     background: url("../images/plus.png") no-repeat 76px center;
 }
 
@@ -260,8 +264,10 @@ ul li {
 }
 
 .img-circle{
+    position: relative;
     border-radius: 50%;
     width: 180px;
+    height: 180px;
 }
 
 .img-circle:hover{
