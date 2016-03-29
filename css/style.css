@@ -248,6 +248,33 @@ ul li {
     z-index: 20;
 }
 
+.portfolio-images li a:after {
+    display: block;
+    content: " ";
+    width: 180px;
+    height: 180px;
+}
+
+.portfolio-images li a:before {
+    display: block;
+    position: absolute;
+    z-index: -10;
+    content: " ";
+    width: 180px;
+    height: 180px;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-images li a:hover:after{
+    background: url("../images/plus.png") no-repeat 76px center;
+}
+
+.portfolio-images li a:hover:before{
+    background: #506c7b;
+    opacity: 0.45;
+}
+
 .portfolio-images li.active a:after {
     display: block;
     content: " ";
