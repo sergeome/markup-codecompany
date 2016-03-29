@@ -246,12 +246,6 @@ ul li {
     width: 180px;
     border-radius: 50%;
     z-index: 50;
-    opacity: 0;
-    background: url("../images/plus.png") no-repeat 76px center;
-}
-
-.portfolio-images li.active a {
-    opacity: 1;
 }
 
 .portfolio-images li.active a:after {
