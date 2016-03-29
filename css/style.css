@@ -245,7 +245,7 @@ ul li {
     height: 180px;
     width: 180px;
     border-radius: 50%;
-    z-index: 50;
+    z-index: 20;
 }
 
 .portfolio-images li.active a:after {
@@ -288,13 +288,7 @@ ul li {
     border-radius: 50%;
     width: 180px;
     height: 180px;
-    transition: ease .4s;
 }
-
-/*.img-circle:hover {*/
-    /*transform: scale(1.1);*/
-    /*opacity: 0.7;*/
-/*}*/
 
 .testimonials{
     width: 100%;
