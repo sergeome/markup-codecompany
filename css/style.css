@@ -147,17 +147,18 @@ ul li {
     color: #b4d1e1;
 }
 
+.button-wrapper{
+    /*width: 300px;*/
+}
+
 .cta-button {
-    display: block;
+    display: inline-block;
     position: relative;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
-    max-width: 300px;
     border: 2px solid #ffffff;
     padding: 16px 69px 16px 47px;
-    margin: 0 auto;
     border-radius: 25px;
-    box-sizing: border-box;
 }
 
 .cta-button:after{
