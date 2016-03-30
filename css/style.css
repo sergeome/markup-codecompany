@@ -327,6 +327,7 @@ ul li {
     color: #0d415c;
     max-width: 1140px;
     margin: 55px auto 70px;
+    padding: 0 2px;
     overflow: hidden;
 }
 
