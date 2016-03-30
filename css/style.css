@@ -335,7 +335,7 @@ ul li {
     height: 55px;
     position: relative;
     float: left;
-    top: -70px;
+    top: -65px;
     background: url("../images/left-narrow.png");
 }
 
@@ -344,7 +344,7 @@ ul li {
     height: 55px;
     position: relative;
     float: right;
-    top: -70px;
+    top: -65px;
     background: url("../images/right-narrow.png");
 }
 
