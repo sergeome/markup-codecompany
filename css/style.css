@@ -425,15 +425,12 @@ ul li {
 }
 
 .send-button {
-    display: block;
+    display: inline-block;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
-    max-width: 300px;
     border: 2px solid #ffffff;
-    padding: 16px 0 16px;
-    margin: 0 auto;
+    padding: 16px 83px;
     border-radius: 25px;
-    box-sizing: border-box;
 }
 
 .low-input::-webkit-input-placeholder, .low-input::-moz-placeholder, .low-input:-ms-input-placeholder, .message-input::-webkit-input-placeholder, .message-input::-moz-placeholder, .message-input:-ms-input-placeholder{
