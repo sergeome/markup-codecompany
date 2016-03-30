@@ -151,7 +151,7 @@ ul li {
     display: block;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
-    width: 300px;
+    max-width: 300px;
     border: 2px solid #ffffff;
     padding: 16px 69px 16px 47px;
     margin: 0 auto;
@@ -409,7 +409,7 @@ ul li {
     display: block;
     font-family: "Roboto Medium", sans-serif;
     font-size: 15px;
-    width: 300px;
+    max-width: 300px;
     border: 2px solid #ffffff;
     padding: 16px 0 16px;
     margin: 0 auto;
