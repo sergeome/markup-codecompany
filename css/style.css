@@ -450,7 +450,7 @@ footer{
 }
 
 .footer-wrapper{
-    width: 1140px;
+    max-width: 1140px;
     overflow: hidden;
     border-top: 1px solid #747d82;
     padding: 54px 0 57px 0;
