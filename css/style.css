@@ -111,7 +111,20 @@ ul li {
 }
 
 .slider{
+    position: relative;
     background: url("../images/slider.png") no-repeat top center;
+}
+
+.slider:after{
+    width: 33554428px;
+    height: 487px;
+    position: absolute;
+    content: " ";
+    top: 0;
+    right: 0;
+    background: #002F47;
+    background-size: contain;
+    z-index: -10;
 }
 .slider-wrapper {
     margin: 0 auto;
