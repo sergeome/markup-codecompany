@@ -331,24 +331,25 @@ ul li {
 }
 
 .narrow-left{
+    display: inline-block;
     width: 55px;
     height: 55px;
-    position: relative;
     float: left;
-    top: -65px;
+    margin: 30px 0 0;
     background: url("../images/left-narrow.png");
 }
 
 .narrow-right{
+    display: inline-block;
     width: 55px;
     height: 55px;
-    position: relative;
     float: right;
-    top: -65px;
+    margin: 30px 0 0;
     background: url("../images/right-narrow.png");
 }
 
 .testimonials-content {
+    display: inline-block;
     font-size: 15px;
     font-style: italic;
     width: 693px;
