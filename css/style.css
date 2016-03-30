@@ -273,6 +273,7 @@ ul li {
 .portfolio-images li a:hover:before{
     background: #506c7b;
     opacity: 0.45;
+    transition: .6s;
 }
 
 .portfolio-images li.active a:after {
