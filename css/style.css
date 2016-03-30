@@ -331,16 +331,21 @@ ul li {
 }
 
 .narrow-left{
-    display: block;
+    width: 55px;
+    height: 55px;
     position: relative;
     float: left;
     top: -70px;
+    background: url("../images/left-narrow.png");
 }
+
 .narrow-right{
-    display: block;
+    width: 55px;
+    height: 55px;
     position: relative;
     float: right;
     top: -70px;
+    background: url("../images/right-narrow.png");
 }
 
 .testimonials-content {
