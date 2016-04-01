@@ -150,7 +150,7 @@ ul li {
 
 .slider-content-wrapper {
     display: block;
-    width: 530px;
+    max-width: 530px;
     margin: 25px auto 43px;
 }
 
@@ -158,10 +158,6 @@ ul li {
     font-family: "Roboto Light", sans-serif;
     font-size: 15px;
     color: #b4d1e1;
-}
-
-.button-wrapper{
-    /*width: 300px;*/
 }
 
 .cta-button {
@@ -225,7 +221,7 @@ ul li {
 }
 
 .team-content {
-    width: 497px;
+    max-width: 497px;
     margin: 35px auto 0;
     font-size: 15px;
     color: #0d415c;
@@ -378,7 +374,7 @@ ul li {
     display: inline-block;
     font-size: 15px;
     font-style: italic;
-    width: 693px;
+    max-width: 693px;
     margin: 25px auto 16px;
 }
 
