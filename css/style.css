@@ -61,6 +61,11 @@ h4 {
     font-weight: 300;
 }
 
+h5 {
+    font-weight: 500;
+    font-size: 36px;
+}
+
 header {
     width: 100%;
     overflow: hidden;
@@ -174,7 +179,7 @@ ul li {
     margin: 25px auto 43px;
 }
 
-.slider-content {
+.slider-content-wrapper p {
     font-weight: 300;
     font-size: 15px;
     color: #b4d1e1;
@@ -183,7 +188,7 @@ ul li {
 .cta-button {
     display: inline-block;
     position: relative;
-    font-family: "Roboto Medium", sans-serif;
+    font-weight: 500;
     font-size: 15px;
     border: 2px solid #ffffff;
     padding: 16px 69px 16px 47px;
@@ -211,6 +216,10 @@ ul li {
     max-width: 1140px;
     color: #0d415c;
     text-align: center;
+}
+
+.team-wrapper h5{
+    color: #0d415c;;
 }
 
 .employees {
@@ -243,6 +252,9 @@ ul li {
 .team-content {
     max-width: 497px;
     margin: 35px auto 0;
+}
+
+.team-content p{
     font-size: 15px;
     color: #0d415c;
 }
