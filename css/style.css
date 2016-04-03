@@ -33,6 +33,7 @@ a {
 h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
+    text-align: center;
 }
 
 p {
@@ -535,9 +536,9 @@ footer{
 }
 
 .social-pinterest, .social-pinterest:hover{
-     width: 36px;
-     height: 36px;
-     background-position: -97px -5px;
+    width: 36px;
+    height: 36px;
+    background-position: -97px -5px;
 }
 
 .social-twitter, .social-twitter:hover {
@@ -559,4 +560,54 @@ footer{
 
 .copyright p {
     font-size: 12px;
+}
+
+@media screen and (max-width: 1018px) {
+
+    .header-wrapper{
+        margin-left: 2%;
+    }
+
+    .employee{
+        margin: 0 10%;
+    }
+
+    .portfolio-images{
+        margin: 0 0 59px;
+    }
+
+    .portfolio-images li {
+        margin: 55px 0 0;
+    }
+
+    .portfolio-images li:nth-child(2n){
+        margin-right: 15%;
+    }
+
+    .portfolio-images li:nth-child(1n){
+        margin-left: 15%;
+    }
+
+    .testimonials-wrapper {
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .narrow-left, .narrow-right {
+        display: none;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .mobile-navigation{
+        float: right;
+        padding-right: 20px;
+        background: url("../images/mobile_menu.png") no-repeat 2px;
+    }
+
+
 }
