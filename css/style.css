@@ -156,17 +156,9 @@ ul li {
     padding: 98px 0 77px 0;
     text-align: center;
 }
-
-.section-title {
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 36px;
+.slider-wrapper img {
+    margin-top: 22px;
 }
-
-.slider-title {
-    font-family: "Roboto Bold", sans-serif;
-    font-size: 60px;
-}
-
 .slider-description {
     font-family: "Roboto Light", sans-serif;
     font-size: 24px;
@@ -223,7 +215,7 @@ ul li {
 }
 
 .employees {
-    margin: 55px 0 23px;
+    margin: 44px 0 23px;
 }
 
 .employee {
@@ -267,7 +259,7 @@ ul li {
     width: 100%;
     background: #00AE86;
     text-align: center;
-    padding: 44px 0;
+    padding: 50px 0 60px;
 }
 
 .portfolio p {
@@ -278,7 +270,7 @@ ul li {
 }
 
 .portfolio-images{
-    margin: 68px auto 57px;
+    margin: 76px auto 59px;
 }
 
 .portfolio-images li{
@@ -379,7 +371,7 @@ ul li {
 .testimonials-wrapper{
     color: #0d415c;
     max-width: 1140px;
-    margin: 55px auto 70px;
+    margin: 55px auto 72px;
     padding: 0 2px;
     overflow: hidden;
 }
@@ -437,7 +429,7 @@ ul li {
 }
 
 .contact-form{
-    padding: 46px 0 87px;
+    padding: 46px 0 85px;
     background: #223139;
     text-align: center;
 }
@@ -451,7 +443,7 @@ ul li {
 .low-input{
     display: block;
     width: 502px;
-    height: 50px;
+    height: 48px;
     border: 1px solid #ffffff;
     border-radius: 50px;
     margin: 10px auto 0;
