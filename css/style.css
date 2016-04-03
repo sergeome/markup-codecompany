@@ -159,11 +159,6 @@ ul li {
 .slider-wrapper img {
     margin-top: 22px;
 }
-.slider-description {
-    font-family: "Roboto Light", sans-serif;
-    font-size: 24px;
-    margin: 0 0 6px 0;
-}
 
 .slider-content-wrapper {
     display: block;
@@ -328,7 +323,6 @@ ul li {
     height: 180px;
     background: url("../images/plus.png") no-repeat 76px center;
 }
-
 
 .portfolio-images li.active a:before {
     display: block;
@@ -500,11 +494,8 @@ footer{
     margin: 0 auto;
 }
 
-.follow-us{
-    float: left;
-}
-
 .follow-us {
+    float: left;
     font-family: "Roboto Light", sans-serif;
     font-size: 16px;
     margin: 7px 0 0 0;
