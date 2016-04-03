@@ -270,15 +270,15 @@ ul li {
     padding: 44px 0;
 }
 
-.portfolio-description {
-    font-family: "Roboto Light", sans-serif;
+.portfolio p {
+    font-weight: 300;
     font-size: 18px;
     text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
-    margin-top: 6px;
+    line-height: 30px;
 }
 
 .portfolio-images{
-    margin: 81px auto 57px;
+    margin: 68px auto 57px;
 }
 
 .portfolio-images li{
@@ -384,6 +384,10 @@ ul li {
     overflow: hidden;
 }
 
+.testimonials-wrapper h5 {
+    color: #0d415c;
+}
+
 .narrow-left{
     display: inline-block;
     width: 55px;
@@ -404,10 +408,14 @@ ul li {
 
 .testimonials-content {
     display: inline-block;
-    font-size: 15px;
-    font-style: italic;
     max-width: 693px;
     margin: 25px auto 16px;
+}
+
+.testimonials-content p{
+    font-size: 15px;
+    font-style: italic;
+    color: #0d415c;
 }
 
 .testimonials-line{
@@ -433,10 +441,11 @@ ul li {
     background: #223139;
     text-align: center;
 }
-.contact-form-description {
-    margin: 2px 0 0 0;
-    font-family: "Roboto Light", sans-serif;
+
+.contact-form p{
+    font-weight: 300;
     font-size: 18px;
+    line-height: 30px;
 }
 
 .low-input{
@@ -562,6 +571,9 @@ footer{
 
 .copyright {
     float: right;
-    font-size: 12px;
     margin: 8px 0 0;
+}
+
+.copyright p {
+    font-size: 12px;
 }
