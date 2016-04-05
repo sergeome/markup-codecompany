@@ -631,7 +631,7 @@ footer{
         -webkit-tap-highlight-color: rgba(0,0,0,0);
     }
 
-    /*Create mobile menu*/
+    /*Create mobile menu and overwrite styles of top-menu*/
 
     ul.top-menu.responsive {
         clear: both;
@@ -684,15 +684,11 @@ footer{
         background: none;
     }
 
+    /*Reduce social icons left margin*/
 
-
-
-    /*.mobile-navigation{*/
-        /*visibility: visible;*/
-        /*float: right;*/
-        /*padding-right: 20px;*/
-        /*background: url("../images/mobile_menu.png") no-repeat top right;*/
-    /*}*/
+    .social {
+        margin: 0 0 0 10px;
+    }
 
 
 }
