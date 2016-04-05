@@ -700,6 +700,14 @@ footer{
         width: 67%
     }
 
+    .slider-wrapper {
+        padding: 60px 0 16%;
+    }
+
+    .team {
+        padding: 0;
+    }
+
     /*Employee displaying in a column*/
     .employee {
         display: block;
