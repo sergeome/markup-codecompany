@@ -429,6 +429,7 @@ ul li {
     font-family: "Roboto", sans-serif;
     font-size: 13px;
     color: #708b99;
+    margin-top: 27px;
 }
 
 .contact-form{
@@ -690,5 +691,61 @@ footer{
         margin: 0 0 0 10px;
     }
 
+}
 
+@media screen and (max-width: 714px) {
+
+    /*Modifying indent line's width */
+    .indent-line {
+        width: 67%
+    }
+
+    /*Employee displaying in a column*/
+    .employee {
+        display: block;
+        margin: 30px 0 0 0 !important;
+    }
+
+    .portfolio-images li {
+        display: block;
+        margin: 30px auto !important;
+    }
+
+    /*Contact Form mobile*/
+
+    .low-input {
+        width: 90%;
+    }
+
+    .message-input {
+        width: 90%;
+    }
+
+    /*Mobile footer style*/
+
+    .footer-wrapper {
+        padding: 0;
+    }
+
+    .follow-us {
+        float: none;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .social{
+        clear: both;
+        display: block;
+        margin: 0 auto !important;
+        width: 266px;
+    }
+
+    .copyright {
+        float: none;
+        margin: 20px auto;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
 }
