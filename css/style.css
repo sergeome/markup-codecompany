@@ -149,17 +149,17 @@ ul li {
     background: url("../images/slider.png") no-repeat top center;
 }
 
-.slider:after{
-    width: 33554428px;
-    height: 487px;
-    position: absolute;
-    content: " ";
-    top: 0;
-    right: 0;
-    background: #002F47;
-    background-size: contain;
-    z-index: -10;
-}
+/*.slider:after{*/
+    /*width: 33554428px;*/
+    /*height: 487px;*/
+    /*position: absolute;*/
+    /*content: " ";*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*background: #002F47;*/
+    /*background-size: contain;*/
+    /*z-index: -10;*/
+/*}*/
 .slider-wrapper {
     margin: 0 auto;
     padding: 98px 0 77px 0;
@@ -695,6 +695,16 @@ footer{
 
 @media screen and (max-width: 715px) {
 
+    /*Fonts overwriting*/
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
     /*Modifying indent line's width */
     .indent-line {
         width: 67%
@@ -702,7 +712,15 @@ footer{
 
 
     .slider-wrapper {
-        padding: 60px 0 16%;
+        padding: 10% 0 12%;
+    }
+
+    .indent-line {
+        display: none;
+    }
+
+    .slider-content-wrapper {
+        margin-bottom: 8%;
     }
 
     .team {
