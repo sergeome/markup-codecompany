@@ -389,20 +389,21 @@ ul li {
     color: #0d415c;
 }
 
-.rslides_nav {
+.narrow-left{
     display: inline-block;
     width: 55px;
     height: 55px;
-    margin: 30px 0 0;
-}
-
-.prev{
     float: left;
+    margin: 30px 0 0;
     background: url("../images/left-narrow.png");
 }
 
-.next{
+.narrow-right{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
     float: right;
+    margin: 30px 0 0;
     background: url("../images/right-narrow.png");
 }
 
