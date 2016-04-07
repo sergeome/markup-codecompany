@@ -457,6 +457,10 @@ ul li {
     /*padding: 14px 162px;*/
 }
 
+.low-input:focus, .message-input:focus{
+    background: #d9d9d9;
+}
+
 .message-input {
     display: block;
     width: 502px;
