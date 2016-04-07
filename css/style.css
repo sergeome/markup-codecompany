@@ -695,10 +695,20 @@ footer{
 
 @media screen and (max-width: 715px) {
 
+    .cta-button {
+        box-sizing: border-box;
+        width: 296px;
+        padding: 16px 0;
+    }
+
+    .cta-button:after{
+        display: none;
+    }
+
     /*Fonts overwriting*/
 
     h3 {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     h4 {
@@ -816,6 +826,10 @@ footer{
     }
 
     @media screen and (max-width: 400px){
+
+        .cta-button {
+            width: 100%;
+        }
 
         .send-button {
             width: 100%;
