@@ -513,11 +513,40 @@ ul li {
     border-radius: 25px;
 }
 
-.low-input::-webkit-input-placeholder, .low-input::-moz-placeholder, .low-input:-ms-input-placeholder, .message-input::-webkit-input-placeholder, .message-input::-moz-placeholder, .message-input:-ms-input-placeholder{
-    color: #8ea6b3;
-    text-align: center;
-    font-family: "Roboto Medium", sans-serif;
-    font-size: 15px;
+input::-webkit-input-placeholder {
+    color: #8ea6b3 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: #8ea6b3 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #8ea6b3 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #8ea6b3 !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #8ea6b3 !important;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+    color: #8ea6b3 !important;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #8ea6b3 !important;
+}
+
+textarea:-ms-input-placeholder {
+    color: #8ea6b3 !important;
+}
+
+.error {
+    background: red;
 }
 
 .feedback-form{
