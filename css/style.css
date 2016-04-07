@@ -146,7 +146,7 @@ ul li {
 
 .slider{
     position: relative;
-    background: url("../images/slider.png") no-repeat top center;
+    background: url("../images/slider/slider1.png") no-repeat top center;
 }
 
 /*Commented image background for the big screen resolution*/
