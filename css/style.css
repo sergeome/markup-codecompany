@@ -160,6 +160,7 @@ ul li {
     /*background-size: contain;*/
     /*z-index: -10;*/
 /*}*/
+
 .slider-wrapper {
     margin: 0 auto;
     padding: 98px 0 77px 0;
@@ -189,6 +190,10 @@ ul li {
     border: 2px solid #ffffff;
     padding: 16px 69px 16px 47px;
     border-radius: 25px;
+}
+
+.cta-button:hover, .send-button:hover{
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
 }
 
 .cta-button:after{
