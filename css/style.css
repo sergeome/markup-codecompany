@@ -389,21 +389,20 @@ ul li {
     color: #0d415c;
 }
 
-.narrow-left{
+.rslides_nav {
     display: inline-block;
     width: 55px;
     height: 55px;
-    float: left;
     margin: 30px 0 0;
+}
+
+.prev{
+    float: left;
     background: url("../images/left-narrow.png");
 }
 
-.narrow-right{
-    display: inline-block;
-    width: 55px;
-    height: 55px;
+.next{
     float: right;
-    margin: 30px 0 0;
     background: url("../images/right-narrow.png");
 }
 
@@ -437,6 +436,29 @@ ul li {
     color: #708b99;
     margin-top: 27px;
 }
+
+/*testimonials-slider*/
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*testimonials-slider-end*/
+
 
 .contact-form{
     padding: 46px 0 85px;

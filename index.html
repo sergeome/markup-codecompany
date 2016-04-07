@@ -4,6 +4,8 @@
     <title>Code Company</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -80,16 +82,37 @@
         </div>
     </div>
         <!--portfolio-->
+    <script>
+        $(function() {
+            // Slideshow 1
+            $(".rslides").responsiveSlides({
+                auto: true,
+                nav: true,
+                speed: 500,
+                prevText: "",   // String: Text for the "previous" button
+                nextText: "",
+                navContainer : "slider-container"
+            });
+        });
+    </script>
     <div class="testimonials">
         <div class="testimonials-wrapper">
             <h5>Clients says</h5>
-            <div class="testimonials-content">
-                <p>This three guys rocks. Wath they say, that they did. Not like a lier lier Jimm Carrey. They souls will have a nice wonderfull power for the further projects. I really recommend this hands curved guys, which have nice girls. Because they now it!</p>
+            <div class="testimonials-content" id="slider-container">
+                <ul class="rslides">
+                    <li><p>This three guys rocks. Wath they say, that they did. Not like a lier lier Jimm Carrey. They souls will have a nice wonderfull power for the further projects. I really recommend this hands curved guys, which have nice girls. Because they now it!</p></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, risus at posuere fringilla, sem elit ullamcorper ipsum, ut consectetur ipsum ante sed magna. Sed nec facilisis dui. Quisque ultrices erat vel enim faucibus viverra.</p></li>
+                    <li><p>Ut sit amet nunc urna. Nulla accumsan urna non fermentum dignissim. Morbi non nunc non nisl auctor lobortis sed at lectus. Donec ac hendrerit dolor, suscipit pulvinar neque. Donec congue eget metus ac ultricies. Mauris quis ante urna. Duis et lorem ornare, volutpat ipsum quit.</p></li>
+                </ul>
             </div>
-            <a class="narrow-left" href="#"></a>
-            <a class="narrow-right" href="#"></a>
+            <a class="rslides_nav rslides1_nav rslides2_nav prev" href="#"></a>
+            <a class="rslides_nav rslides1_nav rslides2_nav next" href="#"></a>
             <img class="indent-line" src="images/team-line.png" alt="">
-            <p class="author-info"><span class="author-name">Albert Zweistein</span> | unsuccessful scientist</p>
+            <ul class="rslides">
+                <li><p class="author-info"><span class="author-name">Albert Zweistein</span> | unsuccessful scientist</p></li>
+                <li><p class="author-info"><span class="author-name">Madison West</span> | UX designer</p></li>
+                <li><p class="author-info"><span class="author-name">Gordon Holmes</span> | famous writer</p></li>
+            </ul>
         </div>
     </div>
         <!--testimonials-->
