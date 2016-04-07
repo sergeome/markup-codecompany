@@ -739,13 +739,18 @@ footer{
         float: none;
         text-align: center;
         margin: 20px 0;
+        clear: both;
     }
 
     .social{
         clear: both;
         display: block;
         margin: 0 auto !important;
-        width: 266px;
+        width: 252px;
+    }
+
+    .social-icon:last-child {
+        margin-right: 0;
     }
 
     .copyright {
