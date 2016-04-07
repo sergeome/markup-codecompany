@@ -700,6 +700,7 @@ footer{
         width: 67%
     }
 
+
     .slider-wrapper {
         padding: 60px 0 16%;
     }
@@ -739,11 +740,9 @@ footer{
         float: none;
         text-align: center;
         margin: 20px 0;
-        clear: both;
     }
 
     .social{
-        clear: both;
         display: block;
         margin: 0 auto !important;
         width: 252px;
