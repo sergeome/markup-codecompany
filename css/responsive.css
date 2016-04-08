@@ -4,6 +4,10 @@
         margin-left: 2%;
     }
 
+    .top-menu li:not(:last-child) {
+        background: none;
+    }
+
     .employee{
         margin: 0 10%;
     }

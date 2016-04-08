@@ -113,7 +113,7 @@ ul li {
 }
 
 .top-menu li:first-child {
-    background: url("../images/border.png") no-repeat 149px 5px;
+    background: url("../images/border.png") no-repeat right;
 }
 
 .top-menu li a {
@@ -177,7 +177,7 @@ ul li {
     margin: 25px auto 43px;
 }
 
-.slider-content {
+.slider-content, .slider-content p{
     font-weight: 300;
     font-size: 15px;
     color: #b4d1e1;
@@ -241,17 +241,17 @@ ul li {
     margin: 0;
 }
 
-.employee-name {
+.employee-name, .employee-name p {
     font-size: 24px;
     color: #0d415c;
 }
 
-.employee-position {
+.employee-position, .employee-position p {
     font-size: 13px;
     color: #618598;
 }
 
-.team-content {
+.team-content, .team-content p {
     max-width: 497px;
     margin: 35px auto 0;
     font-size: 15px;
@@ -269,7 +269,7 @@ ul li {
     padding: 50px 0 60px;
 }
 
-.portfolio-subtitle {
+.portfolio-subtitle, .portfolio-subtitle p {
     font-weight: 300;
     font-size: 18px;
     text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
@@ -410,7 +410,7 @@ ul li {
     margin: 25px auto 16px;
 }
 
-.testimonials-feedback{
+.testimonials-feedback, .testimonials-feedback p{
     font-size: 15px;
     font-style: italic;
     color: #0d415c;
@@ -464,7 +464,7 @@ ul li {
     text-align: center;
 }
 
-.contact-form-subtitle{
+.contact-form-subtitle, .contact-form-subtitle p {
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -597,7 +597,7 @@ footer{
     margin: 0 auto;
 }
 
-.follow-us {
+.follow-us, .follow-us p  {
     float: left;
     font-family: "Roboto Light", sans-serif;
     font-size: 16px;
@@ -655,7 +655,7 @@ footer{
     background-position: -189px -5px;
 }
 
-.copyright {
+.copyright, .copyright p {
     float: right;
     margin: 8px 0 0;
     font-size: 12px;
