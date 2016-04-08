@@ -4,10 +4,6 @@
         margin-left: 2%;
     }
 
-    .top-menu li:not(:last-child) {
-        background: none;
-    }
-
     .employee{
         margin: 0 10%;
     }
@@ -35,6 +31,10 @@
 }
 
 @media screen and (max-width: 920px) {
+
+    .top-menu li:not(:last-child) {
+        background: none;
+    }
 
     /*Disable top logo*/
     img.logo{
