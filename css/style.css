@@ -177,7 +177,7 @@ ul li {
     margin: 25px auto 43px;
 }
 
-.slider-content-wrapper p {
+.slider-content {
     font-weight: 300;
     font-size: 15px;
     color: #b4d1e1;
@@ -254,9 +254,6 @@ ul li {
 .team-content {
     max-width: 497px;
     margin: 35px auto 0;
-}
-
-.team-content p{
     font-size: 15px;
     color: #0d415c;
 }
@@ -272,7 +269,7 @@ ul li {
     padding: 50px 0 60px;
 }
 
-.portfolio p {
+.portfolio-subtitle {
     font-weight: 300;
     font-size: 18px;
     text-shadow: 0 1px 3px rgba(6, 6, 6, 0.18);
@@ -413,7 +410,7 @@ ul li {
     margin: 25px auto 16px;
 }
 
-.testimonials-content p{
+.testimonials-feedback{
     font-size: 15px;
     font-style: italic;
     color: #0d415c;
@@ -467,7 +464,7 @@ ul li {
     text-align: center;
 }
 
-.contact-form p{
+.contact-form-subtitle{
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -661,9 +658,6 @@ footer{
 .copyright {
     float: right;
     margin: 8px 0 0;
-}
-
-.copyright p {
     font-size: 12px;
 }
 
@@ -930,9 +924,6 @@ footer{
     .copyright {
         float: none;
         margin: 20px auto;
-    }
-
-    .copyright p {
         text-align: center;
     }
 
